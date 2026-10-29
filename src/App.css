@@ -1,0 +1,39 @@
+body {
+  background: #f6f7f8;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #dc3545;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.input-spinner {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
+
+.pagination-nav .page-link {
+  min-width: 34px;
+  text-align: center;
+  color: #343a40;
+}
+
+.pagination-nav .page-item.active .page-link {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1080px;
+  }
+}
